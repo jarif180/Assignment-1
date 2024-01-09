@@ -1,6 +1,8 @@
 /* Shared Style */
 body,
 html {
+    padding: 0px;
+    margin: 0px;
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
@@ -153,6 +155,7 @@ html {
 }
 
 .btn2 {
+    cursor: pointer;
     margin-top: 50px;
     padding: 16px 32px;
     justify-content: center;
@@ -388,7 +391,7 @@ html {
 
 }
 
-.mail-btn{
+.mail-btn {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -418,4 +421,63 @@ html {
 
 }
 
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 609px;
+    /* flex-shrink: 0; */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    background: #070211;
+
+}
+
+.footmain{
+    width: 1320px;
+    margin-left: 160px;
+    padding-right: 0px;
+    
+}
+
+.foot-r1{
+    width: 1320px;
+    padding: 120px 140px 0px 120px;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.hr{
+    width: 1320px;
+    height: 1px;
+    background: gray;
+    border: none;
+    margin-left: 120px;
+}
+
+.foot-r2{
+
+    width: 1320px;
+    padding: 120px 0px 0px 120px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 24px;
+    
+}
+
+.foot-r3{
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+   margin-left: 120px;
+   margin-right: 0px;
+   padding-right: 0px;   
+}
 
