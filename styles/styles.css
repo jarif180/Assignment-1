@@ -185,7 +185,7 @@ html {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 16px;
 }
 
@@ -226,7 +226,7 @@ html {
 
 
 
-.addborder{
+.addborder {
     border: 10px solid red;
     border-radius: 50%;
     padding: 30px;
@@ -234,4 +234,121 @@ html {
 
 /* sec5 */
 
+.section-5 {
+    margin: 120px auto;
+    width: 1320px;
+    height: auto;
+    text-align: center;
+}
 
+
+.sec5t1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sec5mt {
+    margin-top: 0px;
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.sec5-des {
+    margin-top: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+/* sec6 */
+.section-6 {
+
+    width: 1320px;
+    margin: auto;
+}
+
+.sec6-row1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.row1-col1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.row1-col2 {
+    position: absolute;
+    right: 220px;
+}
+
+.row1-col3 {
+    width: 350px;
+    height: 433px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(../resources/Rectangle\ 1.png) lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+.sec6-row2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* sec7 */
+
+.section-7 {
+    width: 1320px;
+    margin: auto;
+    height: auto;
+}
+
+.text {
+    margin-top: 100px;
+    text-align: left;
+}
+
+.sec7-mt {
+    margin-top: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+
+}
+
+.sec7-des {
+    margin-top: 0px;
+    width: 850px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+.r1{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.r2{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+/* sec8 */
