@@ -340,15 +340,82 @@ html {
     margin-bottom: 45px;
 }
 
-.r1{
+.r1 {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
 }
-.r2{
+
+.r2 {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
 }
 
 /* sec8 */
+.section-8 {
+    margin: 120px auto;
+    width: 1320px;
+    height: 616px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.sec8-content {
+    padding: 100px;
+    text-align: center;
+}
+
+.mail-img {
+    margin-bottom: 0px;
+}
+
+.sec8-mt {
+    margin-top: 30px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.sec8-des {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.mail-btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textarea {
+    width: 400px;
+    height: 60px;
+    border: none;
+    padding-left: 40px;
+    border-radius: 50px 0 0 50px;
+    background-color: white;
+    margin-right: 0;
+}
+
+.sub-btn {
+    height: 60px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 0;
+    color: white;
+
+}
+
+
