@@ -350,6 +350,7 @@ html {
 }
 
 .r1 img:hover{
+    /* self-learning */
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -363,6 +364,7 @@ html {
 }
 
 .r2 img:hover{
+    /* self-learning */
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -411,7 +413,7 @@ html {
     display: flex;
 }
 
-.textarea {
+.email {
     width: 400px;
     height: 60px;
     border: none;
