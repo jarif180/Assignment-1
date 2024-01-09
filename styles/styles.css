@@ -349,10 +349,24 @@ html {
     margin-bottom: 24px;
 }
 
+.r1 img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
 .r2 {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
+}
+
+.r2 img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
 }
 
 /* sec8 */
